@@ -70,43 +70,54 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
-
+/*Le damos una sola tipografía a toda nuestra web*/
 * {
   font-family: 'Lato', sans-serif;
 }
+/*Hacemos que todo nuestro body funcione como un bloque*/
 
 body {
   display: block;
 
 }
+
+/*Modificando header*/
+
 header {
-  position: fixed;
-  background: #fff;
-  top: 0;
-  width: 100%;
+  position: fixed; /*Para que permanezca visible cuando hagamos scroll*/
+  background: #fff; /*Color de fondo blanco*/
+  top: 0; /*No tiene margen*/ /*Se pega al margen de la web*/
+  width: 100%; /*Ocupa todo el ancho de la web*/
   padding: 30px;
   /*outline: 1px solid green;*/
-  display: block;
+  display: block; /*Para que se comporte como bloque*/
 }
 
-section div {
-  display: block;
-  /*outline: 1px solid yellow;*/
-  height: auto;
-}
-
-
+/*Modificando etiquetas anchor*/
 header a {
-  margin: 10px;
-  margin-left: 40px;
+  margin: 10px; /*margen de 10 pixeles*/
+  margin-left: 40px; /*margen hacia la izquierda */
 }
+
+/*Modificamos el logo que se verá en nuestro header*/
 
 .logo {
-  float: right;
-  width: 40px;
-  height: 40px;
+  float: right; /*Para que se pegue al lado derecho de nuestra web*/
+  width: 40px; /*ancho*/
+  height: 40px; /*largo*/
 
 }
+
+/*Modificando div's*/
+
+section div {
+  display: block; /*Todos se comportarán como bloques*/
+  /*outline: 1px solid yellow;*/
+  height: auto; /*Tendrán el largo que ocupen y necesiten sus elementos o lo que nosotros querramos darles*/
+}
+
+/**/
+
 
 .applove-one {
   background-image: url(https://fotos.subefotos.com/95f30bd8768ea79dda0989bf017c8e1bo.jpg);
