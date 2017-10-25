@@ -71,3 +71,152 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  display: block;
+
+}
+header {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  width: 100%;
+  padding: 30px;
+  /*outline: 1px solid green;*/
+  display: block;
+}
+
+section div {
+  display: block;
+  /*outline: 1px solid yellow;*/
+  height: auto;
+}
+
+
+header a {
+  margin: 10px;
+  margin-left: 40px;
+}
+
+.logo {
+  float: right;
+  width: 40px;
+  height: 40px;
+
+}
+
+.applove-one {
+  background-image: url(https://fotos.subefotos.com/95f30bd8768ea79dda0989bf017c8e1bo.jpg);
+  text-align: center;
+  color: #fff;
+  height: 500px;
+  margin-top: 101px;
+}
+h2{
+  /*outline: 1px solid purple;*/
+  text-align: center;
+  padding-top: 70px;
+  bottom: 30px;
+  /*margin: 53px;*/
+  margin: 0;
+  color: #fff;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+p {
+  text-align: center;
+  margin: 0;
+}
+
+.img-applove-one {
+  width: 100%;
+}
+
+button {
+  margin-top: 80px;
+  background-color: rgb(46,204,113);
+  border: 0;
+  padding: 18px 25px 18px 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.conteiner-services {
+  margin: 0;
+  background-color: rgb(241,124,114);
+  text-align: center;
+  color: #fff;
+}
+
+.conteiner-services h2 {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.services-boxes {
+  display:inline-block;
+  margin: 60px;
+}
+
+.services-imgs {
+  width: 200px;
+  height: 200px;
+}
+.title-work {
+  /*outline: 1px solid green;*/
+  color: black;
+}
+
+div h4 {
+  /*outline: 1px solid blue;*/
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.work-img {
+  align-items: center;
+  width: 900px;
+  height: auto;
+}
+
+img.work-img {
+  align: center;
+  margin-left: 230px;
+}
+
+.proyect-img {
+  width: 250px;
+  height: auto;
+  margin: 85px;
+}
+
+.proyects ul {
+  list-style: none;
+  overflow: auto;
+}
+
+.proyects ul li {
+  float: left;
+}
+
+.proyects .proyect-img p {
+  text-align: center;
+
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(55,59,71);
+  color: #fff;
+  margin-top: 120px;
+
+}
