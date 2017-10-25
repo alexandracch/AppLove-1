@@ -1,11 +1,10 @@
 # AppLove
 
-* **Track:** _Common Core_
 * **Curso:** _Creando tu primer sitio web interactivo_
 * **Unidad:** _Maquetado web con HTML & CSS_
 
 ***
-Para completar tu web **AppLove** hemos creado este repositorio boilerplate (plantilla inicial) con todos los recursos que necesitas. Esto incluye las imágenes y algunas clases CSS que ya hemos creado para ti :)
+Para hacer mi web **AppLove** usé el repositorio boilerplate (plantilla inicial).  
 
 ## Flujo de trabajo:
 1. Empecé realizando un fork en el repositorio original de Laboratoria.
@@ -29,15 +28,4 @@ El reto consistió en maquetar la web **AppLove**, este es mi resultado final:
 
 - Actualicé el archivo **`README.md`** explicando el contenido de mi repositorio.
 
-- El tipo de fuente a utilizar será `Raleway`.
-
-## Consideraciones generales
-
-Este reto sera evaluado sobre lo siguiente:
-
-- Pixel perfect (replicar el diseño con exactitud)
-- Nombramiento de clases, id, etc
-- Indentación
-- Estructura de tus archivos
-- Archivo `README.md` actualizado y correctamente redactado
-- Uso de comentarios para hacer tu código más legible
+- El tipo de fuente que utilicé es `Raleway`.
